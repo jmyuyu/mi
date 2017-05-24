@@ -1,0 +1,33 @@
+body,ol,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form,fieldset,legend,input,textarea,select{margin:0;padding:0}
+img{border:0;vertical-align:middle} 
+a{text-decoration:none} 
+header{margin: 0 auto;}
+li{list-style: none;}
+
+
+
+.header-top{width:1226px;margin: 0 auto;overflow: hidden;}
+.header-bj{background-color: #fd90b9;}
+.header-top img{display: block;margin-left:-650px;}
+
+.header-bottom{background-color: #333;height: 40px;}
+.header-bottom-left{width:1226px;margin: 0 auto;}
+.header-bottom-left ul li{float: left;border-left: 1px solid #393e3e;margin:10px 7px 0 0;text-align: center;font-size: 12px;padding-left:7px ;}
+.header-bottom-left ul li a{color: #b0b0b0;}
+.header-bottom-left ul li:hover a{color: white;}
+.header-bottom-right{float: right;}
+.header-bottom-right ul li{float: right;border-left: 1px solid #393e3e;margin:10px 7px 0 0;text-align: center;font-size: 12px;padding-left:7px ;}
+.header-bottom-right ul li a{color: #b0b0b0;}
+.header-bottom-right ul li:hover a{color: white;}
+
+/*购物车*/
+
+.header-bottom-center{float: right;}
+.header-bottom-center a{line-height: 40px;}
+
+
+
+
+
+
+

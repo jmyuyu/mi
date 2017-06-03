@@ -1,0 +1,35 @@
+﻿[
+	{
+	"img":"../../img/banner-top/b-shou-2.jpg",
+	"name":"小米6",
+	"price":"2499元起"
+	},
+	{
+	"img":"../../img/banner-top/b-shou-2.jpg",
+	"name":"小米Max 2",
+	"price":"1699元起"
+	},
+	{
+	"img":"../../img/banner-top/b-shou-3.jpg",
+	"name":"小米Note 2",
+	"price":"2799元起"
+	},
+	{
+		"img":"../../img/banner-top/b-shou-4.jpg",
+	"name":"小米MIX",
+	"price":"3499元起"
+	},
+	{
+		"img":"../../img/banner-top/b-shou-5.jpg",
+	"name":"小米5s Plus",
+	"price":"2299元起"
+	},
+	{
+		"img":"../../img/banner-top/b-shou-6.jpg",
+	"name":"小米手机5c",
+	"price":"1499元起"
+	}
+	
+
+
+]

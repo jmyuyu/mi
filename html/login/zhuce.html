@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>小米注册页面</title>
+		<link rel="icon" href="../../img/logo.jpg" type="image/x-icon">
+		<link rel="icon" href="myu/img/logo.jpg" type="image/x-icon">
+		<link rel="stylesheet" type="text/css" href="../../css/zhuce.css"/>
+		<script src="../../js/jquery-1.11.0.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../../js/zhuce.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		
+		
+		<div class="banner-bao">
+		<div class="banner">
+			<p class="banner-p"><img src="../../img/kok.jpg"/></p>
+			<p class="banner-p1">注册小米账号</p>
+		<form action="" method="post" id="dan">
+			<input type="text" name="shou" id="shou" placeholder="请输入10位手机号码"/><span class="shou-1">用户已存在！</span><span class="shou-2">请输入真实10位手机号</span><span class="shou-3">不能为空!</span><br />
+			<input  type="text" class="mi" name="mi" placeholder="密码"/><br />
+			<input type="text"  class="tu"   name="tu" placeholder="验证码"/><img src="../../img/yan.jpg"/><br />
+			<input type="button" id="btn" value="注册"/>
+			
+		</form>
+		<p class="banner-p2">点击“立即注册”，即表示您同意并愿意遵守小米<strong>用户协议</strong>和 <strong>隐私政策</strong></p>
+		
+		</div>
+				<div class="yi">
+			<p>简体 繁体 English 常见问题</p>
+			<p>小米公司版权所有-京ICP备10046444-<img src="../../img/guo.png" />-京ICP证110507号</p>
+		</div>
+		</div>
+		
+		
+		
+		
+		
+		<script type="text/javascript">
+
+//		   if(reg.test(Shou.value)!==true){
+//		   	alert("请输入");
+//	
+//		   }
+			
+			
+			
+			$(function(){
+			var Shou=document.getElementById("shou");
+			var reg=/^1[3,4,5,7,8]\d{8}$/;
+
+									
+									
+				var $y=$("#dan").find("input:not(:last)");
+				$("#btn").on("click",function(){
+					if($y.eq(0).val().length ==0){
+						$(".shou-3").show();
+						setTimeout(function(){
+							$(".shou-3").hide();
+						},3000)
+						return;
+					}
+							if(reg.test(Shou.value)!==true){
+						$(".shou-2").show();
+						setTimeout(function(){
+							$(".shou-2").hide();
+						},3000);						
+							return;
+							}
+					$.post("http://127.0.0.1/erjieduan/myu/php/zhuce.php",{"tel":$y.eq(0).val(),"pos":$y.eq(1).val()},function(data){		
+						     if(data==1){
+								
+								location.href="v.html"
+								}else{
+								
+						   $(".shou-1").show();
+						setTimeout(function(){
+							$(".shou-1").hide();
+						},3000)
+					           }		
+					
+					})
+
+				})
+			})
+		</script>
+	</body>
+</html>

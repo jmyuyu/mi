@@ -1,0 +1,697 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>详情页面</title>
+		<script src="../../js/jquery-1.11.0.js" type="text/javascript" charset="utf-8"></script>
+		
+		<script src="../../js/jquery.cookie.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../../js/cart.js"text/javascript" charset="utf-8"></script>
+		
+		<link rel="icon" href="../../img/logo.jpg" type="image/x-icon">
+		<link rel="stylesheet" type="text/css" href="../../css/xiang.css"/>
+
+		<script src="../../js/xiang.js" type="text/javascript" charset="utf-8"></script>
+	
+
+	</head>
+	<body>
+				<header>
+			<div class="header-bj">
+			    <div class="header-top"><img src="../../img/index.jpg"/></div>
+			</div>
+			
+			<div class="header-bottom">
+				<div class="header-bottom-left">
+					<ul>
+						<li><a href="#">小米商城</a></li>
+						<li><a href="#">MIUI</a></li>
+						<li><a href="#">米聊</a></li>
+						<li><a href="#">游戏</a></li>
+						<li><a href="#">多看阅读</a></li>
+						<li><a href="#">云服务</a></li>
+						<li><a href="#">金融</a></li>
+						<li><a href="#">小米移动商城版</a></li>
+						<li><a href="#">问题反馈</a></li>
+						<li><a href="#">Select Region</a></li>
+					</ul>
+				</div>
+				<!--''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''-->
+				<div class="header-bottom-center">
+					<div class="header-bottom-center1"><a href="" id="count">&#xe61f;购物车（<span class="go-shu" id="num">0</span>）</a></div>
+					<div class="header-bottom-center2">
+
+					
+					</div>
+				</div>
+				<div class="header-bottom-right">
+					<ul>
+						<li><a href="#">消息通知</a></li>
+						<li><a href="#">注册</a></li>
+						<li><a href="#">登录</a></li>
+					</ul>
+				</div>
+			</div>
+		</header>
+		<nav>
+			<div class="nav-left1"><img src="../../img/logo1.jpg"/></div>
+			<div class="nav-left2"><a href=""><br />全部商品</a>	
+				<div class="banner-left">
+				<div class="banner-left1">
+									<p><a class="qi" href="">手机 电话卡</a><span class="banner-span" >>
+		    <span class="yi3">
+	<span class="si">
+	<span class="er"><img src="../../img/minv/shou-1.jpg"/><a class="liu" href="">小米6</a></span>
+	<span class="er"><img src="../../img/minv/shou-2.jpg"/><a class="liu" href="">小米手机5c</a></span>
+	<span class="er"><img src="../../img/minv/shou-3.jpg"/><a class="liu" href="">小米Note 2</a></span>
+	<span class="er"><img src="../../img/minv/shou-4.jpg"/><a class="liu" href="">小米MIX</a></span>
+	<span class="er"><img src="../../img/minv/shou-5.jpg"/><a class="liu" href="">小米5s</a></span>
+	<span class="er"><img src="../../img/minv/shou-6.jpg"/><a class="liu" href="">小米5s Plus</a></span></span>
+    <span class="wu">	
+    <span class="san"><img src="../../img/minv/shou-7.jpg"/><a class="liu" href="">小米手机5</a></span>
+	<span class="san"><img src="../../img/minv/shou-8.jpg"/><a class="liu" href="">红米 Note4X</a></span>
+	<span class="san"><img src="../../img/minv/shou-9.jpg"/><a class="liu" href="">红米 Note4</a></span>
+	<span class="san"><img src="../../img/minv/shou-10.jpg"/><a class="liu" href="">红米4X</a></span>
+	<span class="san"><img src="../../img/minv/shou-11.jpg"/><a class="liu" href="">红米4</a></span>
+	<span class="san"><img src="../../img/minv/shou-12.jpg"/><a class="liu" href="">红米4A</a></span>   
+    </span>
+     <span class="ba">
+    <span class="san"><img src="../../img/minv/shou-13.jpg"/><a class="liu" href="">对比手机</a></span>
+	<span class="san"><img src="../../img/minv/shou-14.jpg"/><a class="liu" href="">小米手机卡</a></span>
+     </span>
+    </span>								
+										
+									</span>
+				<p><a class="qi" href="">笔记本 平板</a><span class="banner-span">></span>
+<span class="yi2">
+	<span class="si">
+	<span class="er"><img src="../../img/minv/bi-1.jpg"/><a class="liu" href="">笔记本12.5英寸</a></span>
+	<span class="er"><img src="../../img/minv/bi-2.jpg"/><a class="liu" href="">笔记本13.3英寸</a></span>
+	<span class="er"><img src="../../img/minv/bi-3.jpg"/><a class="liu" href="">小米平板3</a></span>
+	<span class="er"><img src="../../img/minv/bi-4.jpg"/><a class="liu" href="">USP-C电源适配器</a></span>
+	<span class="er"><img src="../../img/minv/bi-5.jpg"/><a class="liu" href="">USB-C转接器</a></span>
+	<span class="er"><img src="../../img/minv/bi-6.jpg"/><a class="liu" href="">小米笔记本内胆包</a></span></span>
+    <span class="wu">	
+    <span class="san"><img src="../../img/minv/bi-7.jpg"/><a class="liu" href="">悦米机械键盘</a></span>
+	<span class="san"><img src="../../img/minv/bi-8.jpg"/><a class="liu" href="">小米便携鼠标</a></span>
+	<span class="san"><img src="../../img/minv/bi-9.jpg"/><a class="liu" href="">小米无线鼠标</a></span>
+	<span class="san"><img src="../../img/minv/bi-10.jpg"/><a class="liu" href="">鼠标垫</a></span>  
+    </span>
+
+    </span>
+					
+			
+				</p>				
+				<p><a class="qi" href="">电视 盒子</a><span class="banner-span">></span>
+					
+				    <span class="yi4">
+	<span class="si">
+	<span class="er"><img src="../../img/minv/dian-1.jpg"/><a class="liu" href="">小米电视4 49英寸</a></span>
+	<span class="er"><img src="../../img/minv/dian-2.jpg"/><a class="liu" href="">小米电视4 55英寸</a></span>
+	<span class="er"><img src="../../img/minv/dian-3.jpg"/><a class="liu" href="">小米电视4 65英寸</a></span>
+	<span class="er"><img src="../../img/minv/dian-4.jpg"/><a class="liu" href="">小米电视4A 43英寸</a></span>
+	<span class="er"><img src="../../img/minv/dian-5.jpg"/><a class="liu" href="">小米电视4A 49英寸</a></span>
+	<span class="er"><img src="../../img/minv/dian-6.jpg"/><a class="liu" href="">小米电视4A 55英寸</a></span></span>
+    <span class="wu">	
+    <span class="san"><img src="../../img/minv/dian-7.jpg"/><a class="liu" href="">小米电视4A 65英寸</a></span>
+	<span class="san"><img src="../../img/minv/dian-8.jpg"/><a class="liu" href="">小米电视3s 48英寸</a></span>
+	<span class="san"><img src="../../img/minv/dian-9.jpg"/><a class="liu" href="">小米电视3s 55英寸</a></span>
+	<span class="san"><img src="../../img/minv/dian-10.jpg"/><a class="liu" href="">小米电视3s 60英寸</a></span>
+	<span class="san"><img src="../../img/minv/dian-11.jpg"/><a class="liu" href="">小米电视3s 65英寸</a></span>
+	<span class="san"><img src="../../img/minv/dian-12.jpg"/><a class="liu" href="">小米电视3s 65英寸 曲面</a></span>   
+    </span>
+     <span class="ba">
+    <span class="san"><img src="../../img/minv/dian-13.jpg"/><a class="liu" href="">小米电视3 70英寸</a></span>
+	<span class="san"><img src="../../img/minv/dian-14.jpg"/><a class="liu" href="">小米盒子3s</a></span>
+	<span class="san"><img src="../../img/minv/dian-15.jpg"/><a class="liu" href="">小米盒子3c</a></span>
+	<span class="san"><img src="../../img/minv/dian-16.jpg"/><a class="liu" href="">小米盒子3 增强版</a></span>
+	<span class="san"><img src="../../img/minv/dian-17.jpg"/><a class="liu" href="">小米低音炮</a></span>
+	<span class="san"><img src="../../img/minv/dian-18.jpg"/><a class="liu" href="">家庭音响</a></span>
+     </span>
+     <span clas="jiu">
+   	<span class="san"><img src="../../img/minv/dian-19.jpg"/><a class="liu" href="">电视盒子配件</a></span>  	
+     </span>
+    </span>	
+				</p>
+				<p><a class="qi" href="">路由器 智能硬件</a><span class="banner-span" >></span>
+					    <span class="yi4">
+	<span class="si">
+	<span class="er"><img src="../../img/minv/lu-1.jpg"/><a class="liu" href="">米家扫地机器人及配件</a></span>
+	<span class="er"><img src="../../img/minv/lu-2.jpg"/><a class="liu" href="">小米VR眼睛</a></span>
+	<span class="er"><img src="../../img/minv/lu-3.jpg"/><a class="liu" href="">小米路由器</a></span>
+	<span class="er"><img src="../../img/minv/lu-4.jpg"/><a class="liu" href="">九号平衡车</a></span>
+	<span class="er"><img src="../../img/minv/lu-5.jpg"/><a class="liu" href="">电助力折叠自行车</a></span>
+	<span class="er"><img src="../../img/minv/lu-6.jpg"/><a class="liu" href="">米家恒温电水壶</a></span></span>
+    <span class="wu">	
+    <span class="san"><img src="../../img/minv/lu-7.jpg"/><a class="liu" href="">米家车载空气净化器</a></span>
+	<span class="san"><img src="../../img/minv/lu-8.jpg"/><a class="liu" href="">手表</a></span>
+	<span class="san"><img src="../../img/minv/lu-9.jpg"/><a class="liu" href="">米家智能电饭煲</a></span>
+	<span class="san"><img src="../../img/minv/lu-10.jpg"/><a class="liu" href="">自能摄像机/相机/微单</a></span>
+	<span class="san"><img src="../../img/minv/lu-11.jpg"/><a class="liu" href="">净化器及滤芯</a></span>
+	<span class="san"><img src="../../img/minv/lu-12.jpg"/><a class="liu" href="">净水器及滤芯</a></span>   
+    </span>
+     <span class="ba">
+    <span class="san"><img src="../../img/minv/lu-13.jpg"/><a class="liu" href="">血压计</a></span>
+	<span class="san"><img src="../../img/minv/lu-14.jpg"/><a class="liu" href="">米兔积木机器人及配件</a></span>
+	<span class="san"><img src="../../img/minv/lu-15.jpg"/><a class="liu" href="">智能灯</a></span>
+	<span class="san"><img src="../../img/minv/lu-16.jpg"/><a class="liu" href="">米兔智能故事机</a></span>
+	<span class="san"><img src="../../img/minv/lu-17.jpg"/><a class="liu" href="">智能家庭组合</a></span>
+	<span class="san"><img src="../../img/minv/lu-18.jpg"/><a class="liu" href="">手环及配件</a></span>
+     </span>
+     <span clas="jiu">
+    <span class="san"><img src="../../img/minv/lu-19.jpg"/><a class="liu" href="">体重秤</a></span>
+	<span class="san"><img src="../../img/minv/lu-20.jpg"/><a class="liu" href="">电动滑板车</a></span>
+	<span class="san"><img src="../../img/minv/lu-21.jpg"/><a class="liu" href="">小米无人机</a></span>
+	<span class="san"><img src="../../img/minv/lu-22.jpg"/><a class="liu" href="">米家行车记录仪</a></span>
+	<span class="san"><img src="../../img/minv/lu-23.jpg"/><a class="liu" href="">小米米家对讲机</a></span>
+	<span class="san"><img src="../../img/minv/lu-24.jpg"/><a class="liu" href="">全部智能硬件</a></span>  	
+     </span>
+    </span>	
+					
+				</p>
+				<p><a class="qi" href="">移动电源 电池 插线板</a><span class="banner-span">></span>
+					
+										    <span class="yi2">
+	<span class="si">
+	<span class="er"><img src="../../img/minv/yi-1.jpg"/><a class="liu" href="">小米移动电源</a></span>
+	<span class="er"><img src="../../img/minv/yi-2.jpg"/><a class="liu" href="">插线板</a></span>
+	<span class="er"><img src="../../img/minv/yi-3.jpg"/><a class="liu" href="">品牌移动电源</a></span>
+	<span class="er"><img src="../../img/minv/yi-4.jpg"/><a class="liu" href="">移动电源附件</a></span>
+	<span class="er"><img src="../../img/minv/yi-5.jpg"/><a class="liu" href="">充电器</a></span>
+	<span class="er"><img src="../../img/minv/yi-6.jpg"/><a class="liu" href="">彩虹5号电池</a></span></span>
+    <span class="wu">	
+    <span class="san"><img src="../../img/minv/yi-7.jpg"/><a class="liu" href="">彩虹7号电池</a></span>   
+    </span>
+			</span>		
+					
+					
+				</p>
+				<p><a class="qi" href="">耳机 音响</a><span class="banner-span">></span>
+										    <span class="yi4">
+	<span class="si">
+	<span class="er"><img src="../../img/minv/er-1.jpg"/><a class="liu" href="">小米头戴式耳机</a></span>
+	<span class="er"><img src="../../img/minv/er-2.jpg"/><a class="liu" href="">头戴式耳机轻松版</a></span>
+	<span class="er"><img src="../../img/minv/er-3.jpg"/><a class="liu" href="">小米降噪耳机</a></span>
+	<span class="er"><img src="../../img/minv/er-4.jpg"/><a class="liu" href="">小米圈铁耳机 Pro</a></span>
+	<span class="er"><img src="../../img/minv/er-5.jpg"/><a class="liu" href="">小米圈铁耳机</a></span>
+	<span class="er"><img src="../../img/minv/er-6.jpg"/><a class="liu" href="">小米胶囊耳机</a></span></span>
+    <span class="wu">	
+    <span class="san"><img src="../../img/minv/er-7.jpg"/><a class="liu" href="">小米活塞耳机清新版</a></span>
+	<span class="san"><img src="../../img/minv/er-8.jpg"/><a class="liu" href="">小米蓝牙耳机</a></span>
+	<span class="san"><img src="../../img/minv/er-9.jpg"/><a class="liu" href="">小米运动蓝牙耳机</a></span>
+	<span class="san"><img src="../../img/minv/er-10.jpg"/><a class="liu" href="">品牌耳机</a></span>
+	<span class="san"><img src="../../img/minv/er-11.jpg"/><a class="liu" href="">小米网络音响</a></span>
+	<span class="san"><img src="../../img/minv/er-12.jpg"/><a class="liu" href="">小米蓝牙音响</a></span>   
+    </span>
+     <span class="ba">
+    <span class="san"><img src="../../img/minv/er-13.jpg"/><a class="liu" href="">小米随身蓝牙音箱</a></span>
+	<span class="san"><img src="../../img/minv/er-14.jpg"/><a class="liu" href="">小钢炮音箱 2</a></span>
+	<span class="san"><img src="../../img/minv/er-15.jpg"/><a class="liu" href="">小米方盒子蓝牙音箱2</a></span>
+	<span class="san"><img src="../../img/minv/er-16.jpg"/><a class="liu" href="">小米盒子蓝牙音箱</a></span>
+	<span class="san"><img src="../../img/minv/er-17.jpg"/><a class="liu" href="">小米音乐闹钟</a></span>
+	<span class="san"><img src="../../img/minv/er-18.jpg"/><a class="liu" href="">小米米兔音箱</a></span>
+     </span>
+     <span clas="jiu">
+    <span class="san"><img src="../../img/minv/er-19.jpg"/><a class="liu" href="">音乐蓝牙车充</a></span> 	
+     </span>
+    </span>		
+				
+				</p>
+				<p><a class="qi" href="">保护套 贴膜</a><span class="banner-span">></span>
+											    <span class="yi1">
+	<span class="si">
+	<span class="er"><img src="../../img/minv/tie-1.jpg"/><a class="liu" href="">贴膜</a></span>
+	<span class="er"><img src="../../img/minv/tie-2.jpg"/><a class="liu" href="">保护套</a></span>
+			</span>	
+				</p>
+			<p><a class="qi" href="">线材 支架 存储卡</a><span class="banner-span">></span>
+															    <span class="yi1">
+	<span class="si">
+	<span class="er"><img src="../../img/minv/xian-1.jpg"/><a class="liu" href="">线材</a></span>
+	<span class="er"><img src="../../img/minv/xian-2.jpg"/><a class="liu" href="">手机支架</a></span>
+	<span class="er"><img src="../../img/minv/xian-3.jpg"/><a class="liu" href="">自拍杆</a></span>
+	<span class="er"><img src="../../img/minv/xian-4.jpg"/><a class="liu" href="">储存卡</a></span>
+
+			</span>	
+			</p>
+				<p><a class="qi" href="">箱包 服饰 鞋 眼镜</a><span class="banner-span">></span>
+																    <span class="yi1">
+	<span class="si">
+	<span class="er"><img src="../../img/minv/yan-1.jpg"/><a class="liu" href="">箱包</a></span>
+	<span class="er"><img src="../../img/minv/yan-2.jpg"/><a class="liu" href="">90分旅行箱</a></span>
+	<span class="er"><img src="../../img/minv/yan-3.jpg"/><a class="liu" href="">服饰</a></span>
+	<span class="er"><img src="../../img/minv/yan-4.jpg"/><a class="liu" href="">米家运动鞋</a></span>
+	<span class="er"><img src="../../img/minv/yan-5.jpg"/><a class="liu" href="">尼龙偏光太阳镜</a></span>
+
+			</span>	
+				</p>
+				<p><a class="qi" href="">米兔 生活周边</a><span class="banner-span">></span>
+																    <span class="yi1">
+	<span class="si">
+	<span class="er"><img src="../../img/minv/mi-1.jpg"/><a class="liu" href="">米兔玩偶</a></span>
+	<span class="er"><img src="../../img/minv/mi-2.jpg"/><a class="liu" href="">米兔周边</a></span>
+	<span class="er"><img src="../../img/minv/mi-3.jpg"/><a class="liu" href="">《小米》会刊</a></span>
+	<span class="er"><img src="../../img/minv/mi-4.jpg"/><a class="liu" href="">毛巾</a></span>
+	<span class="er"><img src="../../img/minv/mi-5.jpg"/><a class="liu" href="">8H乳胶</a></span>
+			</span>	
+				</p>
+				</div>
+			</div>
+			
+		</div></div>
+			<div class="nav-left3">
+			    <span class="fudong">
+			         <span>小米手机</span>
+			         <span>红米</span>
+			         <span>平板 · 笔记本</span>
+			         <span>电视</span>
+			         <span>盒子 · 影音</span>
+			         <span>路由器</span>
+			         <span>智能硬件</span>
+			    </span>
+			    <span>服务</span>
+			    <span>社区</span>
+			</div>
+			<div class="nav-left4">
+			<form class="nav-left4-shou" method="post" class="nav-left4-zong">
+				<input class="nav-left4-btn" type="button" value="&#xe605;"/>
+				<input class="nav-left4-text" type="text" value=""/>
+				<div class="nav-left4-zi1">小米降噪耳机</div>
+				<div class="nav-left4-zi2">小米Max 2</div>
+				<div class="nav-left4-zi3">
+					<ul>
+						<li><span>小米6</span><span>约有7件</span></li>
+						<li><span>小米5s Plus</span><span>约有6件</span></li>
+						<li><span>小米MIX</span><span>约有1件</span></li>
+						<li><span>手环</span><span>约有6件</span></li>
+						<li><span>红米Note 4X</span><span>约有7件</span></li>
+						<li><span>路由器</span><span>约有14件</span></li>
+						<li><span>智能家庭套装</span><span>约有16件</span></li>
+						<li><span>小米VR眼镜</span><span>约有4件</span></li>
+						<li><span>移动电源</span><span>约有17件</span></li>
+						<li><span>米家摄像机</span><span>约有6件</span></li>
+						<li><span>优惠套装</span><span>约有55件</span></li>				
+					</ul>
+				</div>
+			</form>			
+			</div>
+		    </nav>
+					<div class="nav-bottom">
+				 <ul class="nav-bottom1">
+				 	<!--<li><dl class="banner-li">
+				 	<dt><img src="../../img/da/1.jpg"/></dt>
+				 	<dd class="dd-1">qwe</dd>
+				 	<dd class="dd-2">12</dd>
+				 	</dl></li>-->	 	
+				 </ul>		
+			</div>
+
+
+
+
+
+
+<div class="miyou1">
+<div class="miyou">
+	<div class="m6">小米Note6</div>
+     <ul class="m7">
+     	<li>概述</li>
+     	<li>相机</li>
+     	<li>图集</li>
+     	<li>参数</li>
+     	<li>F码通道</li>
+     	<li>用户评价</li>
+     </ul>
+</div>
+
+</div>
+
+<div class="zhong-1">
+	<div class="zhong-left">
+		<div class="sai">
+			<div class="sai-left">&lt;</div>
+			<div class="sai-right">&gt;</div>
+		<ul class="zhong-tu">
+			<!--<li><img src="../../img/zhong4.jpg"/></li>
+			<li><img src="../../img/zhong1.jpg"/></li>
+			<li><img src="../../img/zhong2.jpg"/></li>-->
+		</ul>
+		    <div class="heng">
+		    	<p class="heng1"></p>
+		    	<p></p>
+		    	<p></p>
+		    </div>
+	   </div>
+		
+	</div>
+	<div class="zhong-right">
+		<h2 class="h2"></h2>
+		<p class="right-p1">【1. 下单立减200元，领券再减50元。2.  领券方式：电脑端点击立即领取。APP端下拉可见优惠券，点击领取即可。3.  享小米分期12期免息】<span class="right-p2">6.4" 全面屏 / 全陶瓷机身 / 骁龙 821 性能版 / 4400mAh 大电量 / 陶瓷声学系统 / 超声波距离感应</span></p>
+		<p class="right-p3"  id="p3"></p>
+		<p class="right-p4"> <span>优惠券</span><span>小米MIX 50元优惠券</span><span>立即领取</span></p>
+		<p class="right-p5">   选择版本   <span>骁龙821最高主频，2.35GHz，Adreno 530 图形处理器</span></p>
+		<p class="right-p6"><span class="right-s1" >标准版 4GB内存+128GB容量<span>3499元</span> </span><span class="right-s2" >标准版 4GB内存+128GB容量<span>3499元</span> </span></p>
+		<p class="right-p7"> 选择颜色</p>
+		<p class="right-p8"><span class="right-p8s1">黑色</span><span class="right-p8s2">皓月白</span><span class="right-p8s3">黑金</span></p>
+		<p class="right-p9"><span> 选择小米提供的意外险 </span><span>了解意外险 ></span></p>
+		<p class="right-p10"><span class="right-p10s1">
+			<span class="r10-1"></span>
+			<span class="r10-2"><img src="../../img/baoxian.jpg"/></span>
+			<span class="r10-3">小米MIX 意外保险<br />手机意外损坏，一年内免费维修</span>
+	
+		 <span class="r10-5">249元</span>
+		</span></p>
+		<p class="right-p11">搭配购买</p>
+		
+		<p class="right-p12"><span>搭配一起购买</span><span class="r12-1">最多省30元</span></p>
+		<p class="right-p13"><span>小米MIX全网通 4GB内存＋128GB容量 黑色  </span><span>3499.00元</span><span>总计：3499.00元</span></p>
+		<p class="rbtn"><input type="button" value="添加到购物车" data-id="data[i].id" class="btn" /></p>
+		<p class="right-p14">支持7天无理由退货</p>
+		<p class="right-p15">北京市 昌平区 昌平东南角</p>
+	</div>
+	
+</div>
+
+
+
+<div class="to1"><img src="../../img/to1.jpg"/></div>
+<div class="to2"><img src="../../img/to2.jpg"/></div>
+
+			<footer>
+		<div class="footer1">
+			<ul>
+				<li><span>&#xe6c4;</span>预约维修服务</li>
+				<li><span>&#xe64c;</span>7天无理由退货</li>
+				<li><span>&#xe608;</span>15天免费换货</li>
+				<li><span>&#xe669;</span>满150包邮</li>
+				<li><span>&#xe61d;</span>520家售后服务</li>
+			</ul>
+			
+		</div>
+		
+		
+		<div class="footer2">
+			<div class="f-l">
+				<ul>
+					<li>
+						<p>帮助中心</p>
+						<p>账号管理</p>
+						<p>购物治安</p>
+						<p>订单炒作</p>
+					</li>
+						<li>
+						<p>帮助中心</p>
+						<p>账号管理</p>
+						<p>购物治安</p>
+						<p>订单炒作</p>
+					</li>
+											<li>
+						<p>帮助中心</p>
+						<p>账号管理</p>
+						<p>购物治安</p>
+						<p>订单炒作</p>
+					</li>
+
+						<li>
+						<p>帮助中心</p>
+						<p>账号管理</p>
+						<p>购物治安</p>
+						<p>订单炒作</p>
+					</li>
+
+						<li>
+						<p>帮助中心</p>
+						<p>账号管理</p>
+						<p>购物治安</p>
+						<p>订单炒作</p>
+					</li>
+
+						<li>
+						<p>帮助中心</p>
+						<p>账号管理</p>
+						<p>购物治安</p>
+						<p>订单炒作</p>
+					</li>
+
+				</ul>
+				
+			</div>
+			<div class="f-r">
+				<p>400-100-5678</p>
+				<p>周一至周日 8:00-18:00<br />（仅收市话费）</p>
+				<p><span>&#xe617;</span>24小时在线客服</p>
+			</div>
+		</div>
+		
+	</footer>
+	
+	
+		
+<div class="wanjie">
+	<div class="wanjie1">
+		<div class="wanjie2">
+			
+			<div class="jie-logo"><img src="../../img/kok.jpg"/></div>
+			<div class="kok"><span>小米商城</span><span>小密码</span><span>深夜啊</span><span>两点了</span><span>小米商城</span><span>小密码</span><span>深夜啊</span><span>两点了</span><span>小米商城</span><span>小密码</span><span>深夜啊</span>
+				<p> 京ICP证110507号 京ICP备10046444号京公网安备11010802020134号  违法和不良信息举报电话：185-0130-1238，本网站所列数据，除特殊说明，所有数据均出自我司实验室测试</p></div>
+				<div class="zui1"><img src="../../img/zui-1.jpg"/><img src="../../img/zui-2.jpg"/><img src="../../img/zui-3.jpg"/><img src="../../img/zui-4.jpg"/></div>
+		</div>
+		<p class="e">探索黑科技，小米为发烧而生</p>
+	</div>
+</div>
+
+<script type="text/javascript">
+			function getCookie(name){
+			var strCookie=document.cookie;
+		    var arrCookie=strCookie.split("; ");
+		    for(var i in arrCookie){
+		    	arr=arrCookie[i].split("=");
+		    	if(name == arr[0]){
+		    		return arr[1];
+		    	}
+		    }
+		}
+		function setCookie(name,val,day){
+		var oDate = new Date();
+		oDate.setDate(oDate.getDate()+10);
+		document.cookie=name+"="+val+";expires="+oDate;
+		}
+		function removeCookie(name){
+			setCookie(name,1,-1);	
+		}
+	
+	
+	
+	
+				var data={"1001":{
+				"id":"1001",
+				"title":"小米6",
+				"prc":"￥2999.00",
+				"imgurl":"../../img/nav/1.png",
+				"imgurl1":"../../img/da/1.jpg",
+				"imgurl2":"../../img/da/2.jpg",
+			},
+			"1002":{
+				"id":"1002",
+				"title":"小米5c",
+				"prc":"1499元",
+				"imgurl":"../../img/nav/2.png",
+								"imgurl1":"../../img/da/3.jpg",
+				"imgurl2":"../../img/da/4.jpg",
+			},
+			"1003":{
+				"id":"1003",
+				"title":"小米5s Plus",
+				"prc":"2299元起",
+				"imgurl":"../../img/nav/3.png",
+								"imgurl1":"../../img/da/5.jpg",
+				"imgurl2":"../../img/da/6.jpg",
+			},
+			"1004":{
+				"id":"1004",
+				"title":"小米5s",
+				"prc":"6666元起",
+				"imgurl":"../../img/nav/4.png",
+								"imgurl1":"../../img/da/7.jpg",
+				"imgurl2":"../../img/da/8.jpg",
+			},
+						"1005":{
+				"id":"1005",
+				"title":"小米手机5",
+				"prc":"1599元起",
+				"imgurl":"../../img/nav/5.png",
+								"imgurl1":"../../img/da/9.jpg",
+				"imgurl2":"../../img/da/10.jpg",
+			},
+						"1006":{
+				"id":"1006",
+				"title":"小米MIX",
+				"prc":"6666",
+				"imgurl":"../../img/nav/6.png",
+								"imgurl1":"../../img/da/5.jpg",
+				"imgurl2":"../../img/da/6.jpg",
+			},
+						"1007":{
+				"id":"1007",
+				"title":"小米8s",
+				"prc":"6006",
+				"imgurl":"../../img/nav/7.png",
+								"imgurl1":"../../img/da/7.jpg",
+				"imgurl2":"../../img/da/8.jpg",
+			},
+			"1008":{
+				"id":"1008",
+				"title":"大白菜",
+				"prc":"2元起",
+				"imgurl":"../../img/nav/8.png",
+				"imgurl1":"../../img/da/1.jpg",
+				"imgurl2":"../../img/da/2.jpg",
+			}
+			}
+			
+			var strSearch = location.search;
+			var arrSearch = strSearch.split("=");
+			var id = arrSearch[1];
+			var p=document.getElementById("p3");
+			var oh2=document.getElementsByClassName("h2")[0];
+			var lol=document.getElementsByClassName("m6")[0]
+			var otu=document.getElementsByClassName("zhong-tu")[0];
+			
+			var prc=document.getElementsByClassName("right-p3")[0];
+			
+			var obtn=document.getElementsByClassName("btn")[0];
+			obtn.setAttribute("data-id",data[id].id);
+			oh2.innerHTML=data[id].title;
+			lol.innerHTML=data[id].title;
+		   p.innerHTML=data[id].prc;
+			var li="";
+			for(var i in data){
+			li +="<li><img src='"+data[i].imgurl+"'/></li><li><img src='"+data[i].imgurl1+"'/></li><li><img src='"+data[i].imgurl2+"'/></li>";		
+			}
+		otu.innerHTML=li;
+		
+		
+		
+
+		
+
+		
+		
+		
+		
+					var oUl=document.getElementById("list");
+
+			
+			var nu=document.getElementById("num");
+			var coun=document.getElementById("count");
+			
+var oCart = document.getElementsByClassName("header-bottom-center2")[0];
+		
+		    var str = getCookie("cart");
+			 var obj = str ? JSON.parse(str) : {};
+			 var sum = 0;
+			 for(var i in obj){
+				sum+=obj[i];
+			}
+			 	 
+			 nu.innerHTML =sum;
+			 for(var id in obj) {
+					var oDiv = document.createElement("div");
+					var str = "<img src='" + data[id].imgurl + "'/><h4>" + data[id].title + "</h4><span>￥" + data[id].prc + "<b>X" + obj[id] + "</b></span><a class='closebtn'>X</a>";
+					oDiv.innerHTML = str;
+					oCart.appendChild(oDiv);
+			 		};
+
+			 	obtn.onclick=function(){
+			 		
+			 		var id=this.getAttribute("data-id");
+			 		obj[id] = obj[id] ? ++obj[id] : 1;
+			 		console.log(obj[id]);
+			 		var cao=JSON.stringify(obj);
+			 		setCookie("cart",cao,5);
+			 		var str1 = getCookie("cart");
+					var obj1 = str1 ? JSON.parse(str1) : {}; //用来存商品ID（attr）和添加的数量（value）
+					var sum1 = 0;
+					for(var i in obj1) {
+						sum1 += obj1[i];
+					}
+					nu.innerHTML = sum1;
+					
+					
+					var oDiv = document.createElement("div");
+					var str = "<img src='" + data[id].imgurl + "'/><h4>" + data[id].title + "</h4><span>￥" + data[id].prc + "<b>X" + obj[id] + "</b></span><a class='closebtn'>X</a>"
+					oDiv.innerHTML = str;
+					oCart.appendChild(oDiv);
+					var aDiv = oCart.getElementsByTagName("div");
+					oCart.insertBefore(oDiv, aDiv[0]);
+					
+			 }
+		
+		
+		
+	
+		
+		
+		
+		
+		
+//		  			 for(var id in obj) {
+//					var oCart = document.getElementsByClassName("header-bottom-center2")[0];
+//					var oDiv = document.createElement("div");
+//                var str = "<img src='" + data[id].imgurl + "'/><h4>" + data[id].title + "</h4><span>￥" + data[id].prc + "<b>X" + obj[id] + "</b></span><a class='closebtn'>X</a>"
+//					oDiv.innerHTML = str;
+//					oCart.appendChild(oDiv);
+//				}			
+		
+		
+		
+		
+		
+		
+		
+		
+		
+//			var oUl=document.getElementById("list");
+//
+//			
+//			var nu=document.getElementById("num");
+//			var coun=document.getElementById("count");
+//			var bt=document.getElementsByClassName("btn")[0];
+//			
+//			obtn.setAttribute("data-id", data[id].id);
+//		var val=document.getElementById("num").value;
+// 
+//			 var str = getCookie("cart");
+//			 var obj = str ? JSON.parse(str) : {};
+//			 var sum = 0;
+//			 for(var i in obj){
+//				sum+=obj[i];
+//			}			 
+//			 nu.innerHTML =sum;
+//			 	obtn.onclick=function(){		
+//			 		var id=this.getAttribute("data-id");
+//			 
+//			 		
+//
+//		 		
+//			 		
+//			 		
+//			 		var cao=JSON.stringify(obj);
+//			 		setCookie("cart",cao,5);
+//			  var str1 = getCookie("cart");
+//			 var obj1= str ? JSON.parse(str) : {};
+//			 var sum1 = 0;
+//			 		for(var i in obj1){
+//			 			sum+=obj1[i];
+//			 			
+//			 		}
+//			 		
+//var o=$.cookie(data[id].title)
+//		
+//		 console.log(o)
+		
+		
+		
+</script>
+	</body>
+</html>

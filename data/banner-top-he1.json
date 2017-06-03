@@ -1,0 +1,27 @@
+﻿[
+	{
+	"img":"../../img/banner-top/b-he-1.jpg",
+	"name":"小米盒子3s",
+	"price":"299元"
+	},
+	{
+	"img":"../../img/banner-top/b-he-2.jpg",
+	"name":"小米盒子3c",
+	"price":"199元"
+	},
+	{
+	"img":"../../img/banner-top/b-he-3.jpg",
+	"name":"小米盒子3  增强版",
+	"price":"399元"
+	},
+		{
+	"img":"../../img/banner-top/b-he-4.jpg",
+	"name":"小米家庭影院",
+	"price":"199元"
+	},
+	{
+	"img":"../../img/banner-top/b-he-5.jpg",
+	"name":"小米家庭音箱",
+	"price":"699元"
+	}
+]

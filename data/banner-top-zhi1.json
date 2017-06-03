@@ -1,0 +1,32 @@
+﻿[
+	{
+	"img":"../../img/banner-top/b-zi-1.jpg",
+	"name":"小米体脂称",
+	"price":"199元"
+	},
+	{
+	"img":"../../img/banner-top/b-zi-2.jpg",
+	"name":"小米手环2",
+	"price":"149元"
+	},
+	{
+	"img":"../../img/banner-top/b-zi-3.jpg",
+	"name":"小米净水器",
+	"price":"1249元"
+	},
+		{
+	"img":"../../img/banner-top/b-zi-4.jpg",
+	"name":"小米VR眼睛 PLAY2",
+	"price":"99元"
+	},
+			{
+	"img":"../../img/banner-top/b-zi-5.jpg",
+	"name":"米家IH电饭煲",
+	"price":"399元"
+	},
+	{
+	"img":"../../img/banner-top/b-zi-6.jpg",
+	"name":"查看全部",
+	"price":"智能硬件"
+	}
+]

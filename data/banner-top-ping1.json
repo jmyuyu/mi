@@ -1,0 +1,22 @@
+﻿[
+	{
+	"img":"../../img/banner-top/b-ping-1.jpg",
+	"name":"小米平板3 64GB",
+	"price":"1499元"
+	},
+	{
+	"img":"../../img/banner-top/b-ping-2.jpg",
+	"name":"小米笔记本Air 12.5",
+	"price":"3599元"
+	},
+	{
+	"img":"../../img/banner-top/b-ping-3.jpg",
+	"name":"小米笔记本Air 13.3",
+	"price":"4999元"
+	},
+	{
+	"img":"../../img/banner-top/b-ping-4.jpg",
+	"name":"小米笔记本Air 13.3 尊享版",
+	"price":"5999元"
+	}
+]	

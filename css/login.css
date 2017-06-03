@@ -1,0 +1,63 @@
+body,ol,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form,fieldset,legend,input,textarea,select{margin:0;padding:0}
+img{border:0;vertical-align:middle} 
+a{text-decoration:none;color: #333} 
+header{margin: 0 auto;}
+li{list-style: none;}
+
+@font-face {
+  font-family: 'iconfont';
+  src: url('../font/iconfont.eot');
+  src: url('../font/iconfont.eot?#iefix') format('embedded-opentype'),
+  url('../font/iconfont.woff') format('woff'),
+  url('../font/iconfont.ttf') format('truetype'),
+  url('../font/iconfont.svg#iconfont') format('svg');
+}
+
+
+
+
+header{width: 1130px;height: 100px;}
+
+header img{padding-top: 30px;}
+
+aside{width: 100%;height: 589px;background: #14212a;position: relative;}
+
+.main1{margin: 0 auto;background: #14212a;width: 1130px;}
+.biao{width: 400px;height: 550px;background: white;position: absolute;right: 150px ;top: 30px;}
+
+.biao1{font-size: 30px;padding-right:20px ;border-right: 1px solid #999;text-align: center;margin-left: 60px;color: #f56600;}
+.biao2{font-size: 30px;padding-left:20px ;text-align: center;line-height: 90px;}
+.biao3{border-right: 1px solid #999;text-align: center;margin-left: 100px;padding-right:10px ;color: #999;}
+.biao4{text-align: center;line-height: 50px;margin-left: 10px;color: #999;}
+.biao2:hover{color: #f56600;}
+
+.k1{width: 336px;height: 48px;margin-left:30px ;margin-top: 10px;}
+.k2{width: 336px;height: 48px;margin-left:30px ;margin-top: 10px;}
+
+.k3{width: 336px;height: 48px;margin-left:30px ;margin-top: 30px;font-size:20px ;background:#f56600 ;color: white;border: 0;}
+
+fieldset{text-align: center;border-bottom: 0;border-left: 0;border-right: 0;margin-top:120px ;width: 336px;margin-left: 30px;}
+.bao span{  font-family: 'iconfont';font-size: 40px;color: #999;}
+.bao span:nth-child(4):hover{color: #00d20d;}
+
+.bao span:nth-child(3):hover{color: #00aaee;}
+
+.bao span:nth-child(2):hover{color: #d32f2f;}
+.bao span:nth-child(1):hover{color: #00aaee;}
+
+
+.te1{display:none ;}
+.te img{margin-left: 100px;margin-top: 100px;}
+.te p{text-align: center;line-height: 30px;font-size: 12px;margin-top: 20px;}
+.te p span{color:#f56600 ;}
+
+.te{display: none;}
+
+
+.yi{width: 1130px;height: 200px;margin:0 auto ;margin-top: 100px;}
+
+.yi p{text-align: center;line-height: 30px;}
+.shou-3{display: none;color: #ff005a;position: absolute;margin-left: 30px;}
+.shou-1{display: none;color: #ff005a;position: absolute;margin-left: 30px;}
+
+

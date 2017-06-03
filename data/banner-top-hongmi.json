@@ -1,0 +1,26 @@
+[
+	{
+	"img":"../../../img/banner-top/b-hong-1.jpg",
+	"name":"红米Note 4X",
+	"price":"799元起"
+	},
+	{
+	"img":"../../../img/banner-top/b-hong-2.jpg",
+	"name":"红米Note 4",
+	"price":"999元起"
+	},
+		{
+	"img":"../../../img/banner-top/b-hong-3.jpg",
+	"name":"红米4X",
+	"price":"699元起"
+	},	{
+	"img":"../../../img/banner-top/b-hong-4.jpg",
+	"name":"红米4A",
+	"price":"599元起"
+	},	{
+	"img":"../../../img/banner-top/b-hong-5.jpg",
+	"name":"红米4",
+	"price":"799元起"
+	}
+
+]

@@ -1,0 +1,32 @@
+[
+	{
+	"img":"../../../img/banner-top/b-lu-1.jpg",
+	"name":"小米路由器 HD",
+	"price":"1299元"
+	},
+	{
+	"img":"../../../img/banner-top/b-lu-2.jpg",
+	"name":"小米路由器Pro",
+	"price":"499元"
+	},
+	{
+	"img":"../../../img/banner-top/b-lu-3.jpg",
+	"name":"小米路由器3",
+	"price":"149元"
+	},
+		{
+	"img":"../../../img/banner-top/b-lu-4.jpg",
+	"name":"小米路由器 3c",
+	"price":"99元"
+	},
+			{
+	"img":"../../../img/banner-top/b-lu-5.jpg",
+	"name":"小米WIFI电力猫",
+	"price":"249元"
+	},
+	{
+	"img":"../../../img/banner-top/b-lu-6.jpg",
+	"name":"小米WIFI放大器 2",
+	"price":"49元"
+	}
+]
